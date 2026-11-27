@@ -1,6 +1,6 @@
 {
   "name": "paseo-popup-copy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Paseo plugin: copy selected reply text as plain text, Markdown or inline code, or quote it into the prompt.",
   "keywords": [
     "paseo",
