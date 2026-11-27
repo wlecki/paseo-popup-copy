@@ -1,4 +1,4 @@
-# Copy selection
+# Popup copy
 
 Select text in an agent reply and a small popup appears above it with copy options:
 
