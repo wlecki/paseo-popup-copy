@@ -1,0 +1,37 @@
+{
+  "name": "paseo-popup-copy",
+  "version": "1.0.0",
+  "description": "Paseo plugin: copy selected reply text as plain text, Markdown or inline code, or quote it into the prompt.",
+  "keywords": [
+    "paseo",
+    "paseo-plugin"
+  ],
+  "license": "MIT",
+  "author": "Wojciech Lecki",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlecki/paseo-popup-copy.git"
+  },
+  "homepage": "https://github.com/wlecki/paseo-popup-copy#readme",
+  "files": [
+    "paseo-plugin.json",
+    "OVERVIEW.md",
+    "README.md",
+    "LICENSE",
+    "images/",
+    "index.client.ts",
+    "client/"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/*.test.ts"
+  },
+  "devDependencies": {
+    "@getpaseo/plugin": "0.16.0",
+    "@types/react": "~19.2.0",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "typescript": "^5.9.3",
+    "zod": "^4.4.3"
+  }
+}
